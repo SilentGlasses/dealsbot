@@ -1,5 +1,12 @@
 # !!! THIS IS STILL A WORK IN PROGRESS !!!
 
+> [!CAUTION]
+> The `.env` template is **ONLY** there to help others build their file should they want to also use this app.
+> - **Best Practice**:
+>     - Rotate API keys regularly
+>     - Keep the `.env` file out of version control
+>     - Use a separate email for alerts
+
 This is a Python-based deal scraper that pulls online deals from multiple sources. It supports:
 
 - Secure OAuth2 authentication
@@ -128,11 +135,6 @@ tail -f logs/scraper.log
 | No emails sent | Check SMTP settings and permissions
 | Token expired | Ensure OAuth2 token refresh is working
 
-## Best Practices
-
-- Rotate API keys regularly
-- Keep the `.env` file out of version control
-- Use a separate email for alerts
 
 ## Possible Future Improvements
 
