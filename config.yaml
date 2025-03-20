@@ -1,0 +1,25 @@
+search_terms:
+  - "laptop"
+  - "headphones"
+  - "monitor"
+
+api_sources:
+  - name: "Amazon"
+    endpoint: "https://api.amazon.com/deals"
+    auth_type: "oauth2"
+
+  - name: "eBay"
+    endpoint: "https://api.ebay.com/buy/browse/v1/item_summary/search?q="
+    auth_type: "bearer"
+
+  - name: "Walmart"
+    endpoint: "https://developer.api.walmart.com/v3/items"
+    auth_type: "key"
+
+  - name: "Target"
+    endpoint: "https://api.target.com/v1/deals"
+    auth_type: "oauth2"
+
+  - name: "BestBuy"
+    endpoint: "https://api.bestbuy.com/v1/products"
+    auth_type: "key"
