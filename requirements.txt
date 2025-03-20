@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+schedule
+pyyaml
+logging
+oauthlib
+requests-oauthlib
+python-dotenv
