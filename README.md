@@ -38,16 +38,19 @@ git clone https://github.com/SilentGlasses/dealsbot.git
 cd dealsbot
 ```
 - Set Up Virtual Environment
-Create a Python virtual environment:
+    - Create a Python virtual environment:
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+    - Install Dependencies
+    ```
+    pip install -r requirements.txt
+    ```
+- Make `.env` file and update it with production values:
 ```
-python3 -m venv venv
-source venv/bin/activate
+mv .env_example .env
 ```
-- Install Dependencies
-```
-pip install -r requirements.txt
-```
-- Update the values in the `.env`
 
 - Email Setup:
     - Use an [App Password](https://support.google.com/accounts/answer/185833?hl=en) if you have 2FA enabled on your email account.
